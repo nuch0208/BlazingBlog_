@@ -1,0 +1,18 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>Blazing Blog</PageTitle>
+
+<div class="page">    
+    
+    <div class="container-fluid bg-purple">
+        @* container-fluid กำหนดให้หน้าเว็บไซต์ หรือคลาส .container ของคุณมีขนาดเต็มพื้นที่และหน้าจอที่ใช้อยู่ได้ทันที *@
+        
+    </div>
+    <div class="container-fluid flex-grow-1">
+        @* flex-grow. ใช้กำหนดขนาดของแต่ละ item ว่าให้ขยายขนาดเท่าไหร่ใน container เมื่อเทียบกับ items อื่นๆ *@
+        @Body
+    </div>
+    <footer class="fixed-bottom text-center d-flex align-items-center justify-content-center footer">
+        <p class="mb-0 py-2">Blog App built using Blazor Server by <strong>Abhay Prince</strong></p>
+    </footer>
+</div>

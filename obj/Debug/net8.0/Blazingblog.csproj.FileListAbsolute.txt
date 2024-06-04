@@ -1,0 +1,6 @@
+E:\Blazingblog\obj\Debug\net8.0\Blazingblog.csproj.AssemblyReference.cache
+E:\Blazingblog\obj\Debug\net8.0\Blazingblog.GeneratedMSBuildEditorConfig.editorconfig
+E:\Blazingblog\obj\Debug\net8.0\Blazingblog.AssemblyInfoInputs.cache
+E:\Blazingblog\obj\Debug\net8.0\Blazingblog.AssemblyInfo.cs
+E:\Blazingblog\obj\Debug\net8.0\Blazingblog.csproj.CoreCompileInputs.cache
+E:\Blazingblog\obj\Debug\net8.0\Blazingblog.MvcApplicationPartsAssemblyInfo.cache
