@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.EntityFrameworkCore;
+using BlazingBlog.Data;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,14 +9,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
-builder.Services.AddTransient<UserService>()
-                .AddTransient<CategoryService>()
-                .AddTransient<BlogPostService>();
-
-builder.Services.AddScoped<AuthenticationService>();
-builder.Services.AddScoped<BlogAuthenticationStateProvider>();
-builder.Services.AddScoped<AuthenticationStateProvider>(serviceProvider =>
-    serviceProvider.GetRequiredService<BlogAuthenticationStateProvider>());
 
 var blogConnectionString = builder.Configuration.GetConnectionString("Blog");
 
@@ -41,7 +34,3 @@ app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 
 app.Run();
-
-private class BlogPostService
-{
-}
