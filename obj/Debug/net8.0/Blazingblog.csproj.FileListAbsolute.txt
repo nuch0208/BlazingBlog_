@@ -4,3 +4,10 @@ E:\Blazingblog\obj\Debug\net8.0\Blazingblog.AssemblyInfoInputs.cache
 E:\Blazingblog\obj\Debug\net8.0\Blazingblog.AssemblyInfo.cs
 E:\Blazingblog\obj\Debug\net8.0\Blazingblog.csproj.CoreCompileInputs.cache
 E:\Blazingblog\obj\Debug\net8.0\Blazingblog.MvcApplicationPartsAssemblyInfo.cache
+D:\BlazingBlog\obj\Debug\net8.0\Blazingblog.csproj.AssemblyReference.cache
+D:\BlazingBlog\obj\Debug\net8.0\Blazingblog.GeneratedMSBuildEditorConfig.editorconfig
+D:\BlazingBlog\obj\Debug\net8.0\Blazingblog.AssemblyInfoInputs.cache
+D:\BlazingBlog\obj\Debug\net8.0\Blazingblog.AssemblyInfo.cs
+D:\BlazingBlog\obj\Debug\net8.0\Blazingblog.csproj.CoreCompileInputs.cache
+D:\BlazingBlog\obj\Debug\net8.0\Blazingblog.MvcApplicationPartsAssemblyInfo.cache
+D:\BlazingBlog\obj\Debug\net8.0\Blazingblog.sourcelink.json

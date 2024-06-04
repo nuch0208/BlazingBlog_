@@ -41,3 +41,7 @@ app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 
 app.Run();
+
+private class BlogPostService
+{
+}

@@ -1,5 +1,7 @@
+using Blazingblog.data.entities;
+using BlazingBlog.Data.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
+
 
 namespace BlazingBlog.Data
 {
@@ -7,6 +9,7 @@ namespace BlazingBlog.Data
     {
         public BlogContext(DbContextOptions<BlogContext> options) : base(options)
         {
+
         }
 
         public DbSet<Category> Categorys { get; set; } 
