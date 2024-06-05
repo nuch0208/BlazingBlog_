@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using System;
+using blazingBlog.Data.Entities;
 
-namespace BlazingBlog.Data
+namespace blazingBlog.Data
 {
     public class BlogContext : DbContext
     {

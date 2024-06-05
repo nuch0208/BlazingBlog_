@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5KDsDy0C3ak=",
+  "dgSpecHash": "JDR0mOSOtzI=",
   "success": true,
-  "projectFilePath": "E:\\Blazingblog\\Blazingblog.csproj",
+  "projectFilePath": "E:\\Blazingblog\\blazingBlog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\m.computer\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\m.computer\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -70,7 +70,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Blazingblog depends on Microsoft.EntityFrameworkCore (>= 8.0.0-preview.4.24267.1) but Microsoft.EntityFrameworkCore 8.0.0-preview.4.24267.1 was not found. An approximate best match of Microsoft.EntityFrameworkCore 8.0.0-preview.5.23280.1 was resolved.",
+      "message": "blazingBlog depends on Microsoft.EntityFrameworkCore (>= 8.0.0-preview.4.24267.1) but Microsoft.EntityFrameworkCore 8.0.0-preview.4.24267.1 was not found. An approximate best match of Microsoft.EntityFrameworkCore 8.0.0-preview.5.23280.1 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         "net8.0"
@@ -80,7 +80,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Blazingblog depends on Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.4.24267.1) but Microsoft.EntityFrameworkCore.SqlServer 8.0.0-preview.4.24267.1 was not found. An approximate best match of Microsoft.EntityFrameworkCore.SqlServer 8.0.0-preview.5.23280.1 was resolved.",
+      "message": "blazingBlog depends on Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.4.24267.1) but Microsoft.EntityFrameworkCore.SqlServer 8.0.0-preview.4.24267.1 was not found. An approximate best match of Microsoft.EntityFrameworkCore.SqlServer 8.0.0-preview.5.23280.1 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
       "targetGraphs": [
         "net8.0"
@@ -90,7 +90,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Blazingblog depends on Microsoft.EntityFrameworkCore.Tools (>= 8.0.0-preview.4.24267.1) but Microsoft.EntityFrameworkCore.Tools 8.0.0-preview.4.24267.1 was not found. An approximate best match of Microsoft.EntityFrameworkCore.Tools 8.0.0-preview.5.23280.1 was resolved.",
+      "message": "blazingBlog depends on Microsoft.EntityFrameworkCore.Tools (>= 8.0.0-preview.4.24267.1) but Microsoft.EntityFrameworkCore.Tools 8.0.0-preview.4.24267.1 was not found. An approximate best match of Microsoft.EntityFrameworkCore.Tools 8.0.0-preview.5.23280.1 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Tools",
       "targetGraphs": [
         "net8.0"

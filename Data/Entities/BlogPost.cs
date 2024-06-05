@@ -3,7 +3,8 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace BlazingBlog.Data.Entities
+
+namespace blazingBlog.Data.Entities
 {
     public class BlogPost
     {

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Blazingblog\\Blazingblog.csproj": {}
+    "E:\\Blazingblog\\blazingBlog.csproj": {}
   },
   "projects": {
-    "E:\\Blazingblog\\Blazingblog.csproj": {
+    "E:\\Blazingblog\\blazingBlog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Blazingblog\\Blazingblog.csproj",
-        "projectName": "Blazingblog",
-        "projectPath": "E:\\Blazingblog\\Blazingblog.csproj",
+        "projectUniqueName": "E:\\Blazingblog\\blazingBlog.csproj",
+        "projectName": "blazingBlog",
+        "projectPath": "E:\\Blazingblog\\blazingBlog.csproj",
         "packagesPath": "C:\\Users\\m.computer\\.nuget\\packages\\",
         "outputPath": "E:\\Blazingblog\\obj\\",
         "projectStyle": "PackageReference",

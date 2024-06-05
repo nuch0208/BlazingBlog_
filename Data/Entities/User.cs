@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace Blazingblog.data.entities
+namespace blazingBlog.Data.Entities
 {
  public class User
  {
