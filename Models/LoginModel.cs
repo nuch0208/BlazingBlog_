@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 
 
-namespace Blazingblog.Models
+namespace blazingBlog.Models
 {
     public class LoginModel
     {

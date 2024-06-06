@@ -1,14 +1,26 @@
 
 @page "/login"
-@using Blazingblog.Models;
-@inject NavigationManager NavigationManager
+@using blazingBlog.Models;
+@using System.ComponentModel.DataAnnotations;
+@inject NavigationManager NavigationManager;
 
+@if(_isProcessing)
+{
+    <div class="overlay postion-fixed"></div>
+    <div class="loading-wrapper">
+        <div class="loading-text">Logging-in......</div>
+  </div>
+} 
+
+<style type="text/css">
+    .overlay
+</style>
 <EditForm Model="_model" OnValidSubmit="LoginAsync"> @* editform ผู้ใช้สามารถแก้ไขฟิลด์เหล่านั้น สร้างเรกคอร์ด และบันทึกการเปลี่ยนแปลงเหล่านั้นไปยังแหล่งข้อมูลได้ *@
     <DataAnnotationsValidator /> @*Arrow to data vilidation*@
 <div class="container mt-5 d-flex justify-content-center"> 
     @*ใน container นี้แยกเป็นส่วน ๆ และจัดแต่งแต่ละส่วน มี header / body/ footer ของกล่อง login*@
     @*mt-5 เป็น space เว้นห่างจากด้านบน*@
-    <div class="card" style="max=width: 450px"> @*กรอบ login กว้าง 450px*@
+    <div class="card" style="width: 450px"> @*กรอบ login กว้าง 450px*@
         <div class="card-header"
             <h2>Login</h2>
         </div>
@@ -33,6 +45,24 @@
  @code {
     
     private LoginModel _model = new();
+    //ใช้เช็คหากไม่มีการคลิกที่ปุ่ม 5 นาที ใช้ boolean
+    private bool _isProcessing = false;
+
     private async Task LoginAsync();
+    {
+        _isProcessing = true;
+
+        try
+        {
+            await Task.Delay(5000);
+            NavigationManager.NavigateTo("/")
+            //set delay หลังจาก 5 วินาที เราจะกลับไปที่หน้า homepage
+        }
+        catch (Exception ex)
+        {
+            _isProcessing = false;
+            //throw
+        }
+    }
 
 }
