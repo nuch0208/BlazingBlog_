@@ -1,0 +1,38 @@
+
+@page "/login"
+@using Blazingblog.Models;
+@inject NavigationManager NavigationManager
+
+<EditForm Model="_model" OnValidSubmit="LoginAsync"> @* editform ผู้ใช้สามารถแก้ไขฟิลด์เหล่านั้น สร้างเรกคอร์ด และบันทึกการเปลี่ยนแปลงเหล่านั้นไปยังแหล่งข้อมูลได้ *@
+    <DataAnnotationsValidator /> @*Arrow to data vilidation*@
+<div class="container mt-5 d-flex justify-content-center"> 
+    @*ใน container นี้แยกเป็นส่วน ๆ และจัดแต่งแต่ละส่วน มี header / body/ footer ของกล่อง login*@
+    @*mt-5 เป็น space เว้นห่างจากด้านบน*@
+    <div class="card" style="max=width: 450px"> @*กรอบ login กว้าง 450px*@
+        <div class="card-header"
+            <h2>Login</h2>
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label class="form-label">Username</label>@* สร้าง labelของช่อง input  *@
+                <InputText @bind-Value="_model.Username" class="form-control" placeholder="Enter username" />@*ช่อง input ที่ให้ในช่องมีข้อความว่า enter username*@
+                <ValidationMessage For="()=> _model.Username" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <InputText type="password" @bind-Value="_model.Password" class="form-control" placeholder="Enter password" />
+                <ValidationMessage For="()=> _model.Password" />
+            </div>
+        </div>
+        <div class="card-footer">
+            <button type="submit" class="btn bth-success btn-sm">Login</button>
+        </div>
+    </div>   
+</div>
+ </EditForm>
+ @code {
+    
+    private LoginModel _model = new();
+    private async Task LoginAsync();
+
+}

@@ -1,40 +1,40 @@
 {
   "Files": [
     {
-      "Id": "E:\\Blazingblog\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blazingBlog.bundle.scp.css",
-      "PackagePath": "staticwebassets\\blazingBlog.bundle.scp.css"
+      "Id": "D:\\BlazingBlog_\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blazingblog.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Blazingblog.bundle.scp.css"
     },
     {
-      "Id": "E:\\Blazingblog\\wwwroot\\app.css",
+      "Id": "D:\\BlazingBlog_\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "E:\\Blazingblog\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\BlazingBlog_\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Blazingblog\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\BlazingBlog_\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\Blazingblog\\wwwroot\\favicon.png",
+      "Id": "D:\\BlazingBlog_\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.blazingBlog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Blazingblog.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.blazingBlog.props",
-      "PackagePath": "build\\blazingBlog.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Blazingblog.props",
+      "PackagePath": "build\\Blazingblog.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.blazingBlog.props",
-      "PackagePath": "buildMultiTargeting\\blazingBlog.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Blazingblog.props",
+      "PackagePath": "buildMultiTargeting\\Blazingblog.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.blazingBlog.props",
-      "PackagePath": "buildTransitive\\blazingBlog.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Blazingblog.props",
+      "PackagePath": "buildTransitive\\Blazingblog.props"
     }
   ],
   "ElementsToRemove": []
